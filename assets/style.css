@@ -1,0 +1,253 @@
+body{
+    margin: auto;
+    font-family: Open Sans;
+}
+header{
+    background-image: url(images/Header\ Background\ Cropped.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 1.5rem 4rem;
+    text-align: left;
+}
+h1{
+    color: #FFF;
+    font-family: Luckiest Guy;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#cabecalho{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#Baixar, #Abrir{
+    display: flex;
+    width: 21rem;
+    height: 3.5rem;
+    border-radius: 28px;
+    text-align: center;
+    justify-content: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+#Baixar{
+    background: #FFF;
+    color: #23272A;
+}
+#Baixar:hover{
+    color: blueviolet;
+    box-shadow: 3px 3px 10px black;
+}
+#Abrir{
+    background: #23272A;
+    color:#FFF;
+}
+#Abrir:hover{
+    box-shadow: 3px 3px 10px black;
+}
+#botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.white{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+}
+#image-1{
+    background-image: url(images/Section\ Image.png);
+    height: 17rem;
+    width: 23rem;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.gray{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: #f6f6f6;
+}
+#image-2{
+    background-image: url(images/Section\ Image\ 2.png);
+    height: 17rem;
+    width: 23rem;
+}
+#image-3{
+    background-image: url(images/Section\ Image\ 3.png);
+    height: 17rem;
+    width: 23rem;
+}
+.grey{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f6f6f6;
+}
+#image-4{
+    background-image: url(images/Section\ Image\ 4.png);
+    background-size: cover;
+    height: 17rem;
+    width: 23rem;
+}
+h2{
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+}
+#h-grey{
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    font-family: Luckiest Guy;
+}
+footer{
+    background-color: #23272A;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 5rem;
+}
+
+@media screen and (min-width: 429px) and (max-width: 1023px){
+    header{
+        background-image: url(images/Header\ Background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 3rem 1.5rem 4rem;
+        text-align: center;
+    }
+    #cabecalho{
+        padding: 1rem;
+    }
+    .text{
+        padding: 0.5rem;
+    }
+}
+@media screen and (min-width:1024px) {
+    header{
+        background-image: url(images/Header\ Background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 4rem 1.5rem 7rem;
+        text-align: center;
+    }
+    h1{
+        font-size: 56px;
+        padding: 0;
+    }
+    #texto_header{
+        display: flex;
+        flex-direction: column;
+        padding: 0 21rem;
+    }
+    #botao{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+    .white{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 3rem;
+    }
+    #image-1{
+        background-image: url(images/Section\ Image\ PC.png);
+        height: 25rem;
+        width: 38rem;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        justify-content: center;
+        height: 25rem;
+        width: 21rem;
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 800;
+    }
+    #h-grey{
+        font-size: 40px;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    .gray{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 3rem;
+    }
+    #image-2{
+        background-image: url(images/Section\ Image\ 2\ PC.png);
+        height: 25rem;
+        width: 38rem;
+    }
+    #image-3{
+        background-image: url(images/Section\ Image\ 3\ PC.png);
+        height: 25rem;
+        width: 38rem;
+    }
+    .grey{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #image-4{
+        background-image: url(images/Section\ Image\ 4\ PC.png);
+        height: 25rem;
+        width: 38rem;
+        background-size: contain;
+    }
+    .text-grey{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 15rem;
+        width: 50rem;
+    }
+    footer{
+        background-color: #23272A;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        height: 7rem;
+    }
+    #rodape{
+        background-image: url(images/svgexport-15\ 1\ PC.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #invisivel{
+        visibility: hidden;
+    }
+}
